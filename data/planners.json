@@ -1,0 +1,83 @@
+{
+  "planners": [
+    {
+      "slug": "daily-planner", "title": "Daily Planner", "emoji": "🗓️", "group": "planners",
+      "kind": "time", "timeCol": "Time", "cols": ["Tasks & Notes"], "topBox": true,
+      "def": { "start": 6, "end": 21, "interval": 60, "orient": "portrait" },
+      "blurb": "A one-day planner with an hour-by-hour column down the side and a top-priorities box at the top, so the three things that actually have to happen don't get buried under the schedule.",
+      "tip": "Set the start and end hours to your real day, not a generic 9-to-5 — a planner that ends at 5pm is useless to anyone whose evening is the busy part. Switch to 30-minute slots for a packed day."
+    },
+    {
+      "slug": "weekly-planner", "title": "Weekly Planner", "emoji": "📆", "group": "planners",
+      "kind": "rows", "weekdays": true,
+      "def": { "rows": 8, "weekStart": 1, "orient": "landscape" },
+      "blurb": "Seven day columns across a landscape page with open rows to write under each — a whole week in view at once, which is the point: you plan a week by seeing it, not by flipping between seven daily pages.",
+      "tip": "Flip the week start to Sunday or Monday to match how you actually think about the weekend, and write the dates into the day headings before you print so the sheet is anchored to a real week."
+    },
+    {
+      "slug": "to-do-list", "title": "To-Do List", "emoji": "✅", "group": "planners",
+      "kind": "rows", "cols": [{ "h": "Done", "box": true }, { "h": "Task", "wide": true }, { "h": "Priority" }],
+      "def": { "rows": 20, "orient": "portrait" },
+      "blurb": "A plain checkbox to-do list: a box to tick, a wide line for the task, and a priority column so the list is ranked instead of just long.",
+      "tip": "Cap it at what a single page holds. A to-do list that runs to a second page is a project, and projects need a different tool than a checklist."
+    },
+    {
+      "slug": "meal-planner", "title": "Weekly Meal Planner", "emoji": "🍽️", "group": "planners",
+      "kind": "days", "dayCol": "Day", "cols": ["Breakfast", "Lunch", "Dinner", "Snacks"],
+      "def": { "weekStart": 1, "orient": "landscape" },
+      "blurb": "The seven days down the side, breakfast/lunch/dinner/snacks across the top — fill it in once and it doubles as your grocery list, because you can only shop for meals you've actually decided on.",
+      "tip": "Plan the week before you shop, not after. A meal planner filled in at the kitchen counter on Sunday is what stops the 6pm 'what's for dinner' scramble and the mid-week takeout."
+    },
+    {
+      "slug": "hourly-planner", "title": "Hourly Planner", "emoji": "⏰", "group": "schedules",
+      "kind": "time", "timeCol": "Time", "cols": ["Task / Appointment"],
+      "def": { "start": 6, "end": 21, "interval": 60, "orient": "portrait" },
+      "blurb": "A single day broken into time slots you control — set the start hour, the end hour, and 30- or 60-minute intervals — with one wide column to block out appointments and tasks against the clock.",
+      "tip": "Use 30-minute slots for a day of back-to-back meetings and 60-minute slots for a normal work day; too fine a grid on a quiet day is just empty boxes to feel guilty about."
+    },
+    {
+      "slug": "weekly-schedule", "title": "Weekly Schedule", "emoji": "🗓️", "group": "schedules",
+      "kind": "time", "timeCol": "Time", "weekdays": true,
+      "def": { "start": 7, "end": 21, "interval": 60, "orient": "landscape" },
+      "blurb": "A time-block grid: hours down the side, the seven days across the top, so a recurring week — work, workouts, pickups, standing meetings — lives on one page instead of in your head.",
+      "tip": "Block the fixed things first (work hours, commute, the standing 3pm), then plan around the gaps that are left. Scheduling the immovable stuff last is how the day fills up with nothing important."
+    },
+    {
+      "slug": "class-schedule", "title": "Class Schedule", "emoji": "🎒", "group": "schedules",
+      "kind": "time", "timeCol": "Time", "weekdays": true,
+      "def": { "start": 8, "end": 16, "interval": 60, "orient": "landscape" },
+      "blurb": "A weekday time grid for a student's classes — periods down the side, days across the top — that prints one clean page for a binder, a locker door, or the fridge.",
+      "tip": "Write room numbers and teacher names into the cells, not just the subject; the first week of a term is when 'where is 3rd period' matters most, and that's exactly when you have it least memorized."
+    },
+    {
+      "slug": "weekly-class-schedule", "title": "Weekly Class Schedule", "emoji": "🏫", "group": "schedules",
+      "kind": "time", "timeCol": "Time", "weekdays": true,
+      "def": { "start": 8, "end": 17, "interval": 60, "orient": "landscape" },
+      "blurb": "A full-week class timetable covering the whole school or college week on one sheet, with adjustable start and end times for schedules that run late into the afternoon or start before first bell.",
+      "tip": "For a college schedule with classes only on some days, leave the empty days in — a blank Wednesday column is information too, and printing all seven keeps the grid readable."
+    },
+    {
+      "slug": "cleaning-schedule", "title": "Cleaning Schedule", "emoji": "🧹", "group": "schedules",
+      "kind": "sections",
+      "sections": [{ "h": "Daily", "rows": 6 }, { "h": "Weekly", "rows": 7 }, { "h": "Monthly", "rows": 6 }],
+      "def": { "orient": "portrait" },
+      "blurb": "Cleaning split into daily, weekly, and monthly checklists so the whole house doesn't land on Saturday. The daily list keeps the mess from piling up; the weekly and monthly lists catch the jobs that are easy to forget until they're bad.",
+      "tip": "Be honest about which list a task belongs on. Most burnout comes from treating weekly jobs as daily ones — floors don't need mopping every day, and pretending they do is how the whole schedule gets abandoned."
+    },
+    {
+      "slug": "chore-chart", "title": "Chore Chart", "emoji": "🧽", "group": "logs",
+      "kind": "rows", "weekdays": true, "boxCols": true, "leadCol": "Chore",
+      "def": { "rows": 12, "weekStart": 1, "orient": "landscape" },
+      "blurb": "Chores down the side, a checkbox for each day across the top — a wipe-clean-simple weekly chart for kids' responsibilities, roommate rotations, or your own habit tracking.",
+      "tip": "Let kids tick their own boxes. A chore chart works because the child gets to mark it done, not because a parent audits it — the checkmark is the reward, so don't take it over."
+    },
+    {
+      "slug": "workout-log", "title": "Workout Log", "emoji": "💪", "group": "logs",
+      "kind": "rows",
+      "cols": [{ "h": "Exercise", "wide": true }, { "h": "Sets" }, { "h": "Reps" }, { "h": "Weight" }, { "h": "Done", "box": true }],
+      "def": { "rows": 14, "orient": "portrait" },
+      "blurb": "A no-app training log: exercise, sets, reps, weight, and a box to tick when it's done. Writing down the weight you lifted last time is the whole game — progressive overload only works if you can see the last number.",
+      "tip": "Log the set as you finish it, not from memory after the workout. The number you 'think' you did last week is almost always heavier than the number you actually did."
+    }
+  ]
+}
