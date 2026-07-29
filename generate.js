@@ -63,7 +63,7 @@ function layout({ title, desc, urlPath, h1, body, cfg }) {
 </main>
 <footer class="site-foot no-print"><div class="wrap">
   <a href="${BASE}/">Home</a><a href="${BASE}/#planners">Planners</a><a href="${BASE}/#schedules">Schedules</a><a href="${BASE}/#logs">Charts & Logs</a>
-  <span>· ${SITE} — free printable planners and schedules. No downloads, no signups: customize and print. Part of <a href="https://elevatedprogress.com/">Elevated Progress</a>. · <a href="https://elevatedprogress.com/privacy/">Privacy Policy</a></span>
+  <span>· ${SITE} — free printable planners and schedules. No downloads, no signups: customize and print. Part of <a href="https://elevatedprogress.com/">Elevated Progress</a>. · <a href="https://elevatedprogress.com/about/">About</a> · <a href="https://elevatedprogress.com/contact/">Contact</a> · <a href="https://elevatedprogress.com/privacy/">Privacy Policy</a></span>
 </div></footer>
 ${cfgScript}
 <script src="${BASE}/plan.js" defer></script>
