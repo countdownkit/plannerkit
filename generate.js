@@ -195,7 +195,19 @@ for (const p of PLANNERS) {
   const body = `<p class="lead">Pick a planner, tweak the title, rows, and time range right on the page, and print. Every one also saves as a PDF from the print dialog — no downloads, no account, nothing to install.</p>
   ${sections}
   <div class="ad-slot no-print">Advertisement</div>
-  <div class="prose"><p>These are working tools, not template downloads: the planner you see on each page is the planner that prints. Click the title or a heading to rename it, set the hours or number of rows you need, flip to landscape for wide grids, and the print stylesheet strips everything else off the page automatically.</p></div>`;
+  <div class="prose"><p>These are working tools, not template downloads: the planner you see on each page is the planner that prints. Click the title or a heading to rename it, set the hours or number of rows you need, flip to landscape for wide grids, and the print stylesheet strips everything else off the page automatically.</p></div>
+  <div class="prose">
+    <h2>Which planner should you print?</h2>
+    <p>Reach for a <b>daily planner</b> or <b>hourly planner</b> when you're organizing a single day: the daily planner pairs an hour column with a top-priorities box, while the hourly planner gives you one wide column to block appointments against the clock. To see a whole week on one sheet, the <b>weekly planner</b> leaves open writing space under each day and the <b>weekly schedule</b> lays hours down the side against the seven days. The <b>to-do list</b>, <b>workout log</b>, and <b>chore chart</b> are for tracking rather than time: tick-box tasks, sets and reps, and a checkbox per day. Kitchen and school get their own grids too: the <b>meal planner</b> runs breakfast to snacks across the week, the <b>cleaning schedule</b> splits jobs into daily, weekly, and monthly lists, and the class-schedule sheets print a clean weekday timetable for a binder or the fridge.</p>
+    <h2>Customize it before you print</h2>
+    <p>Every planner is editable right on the page. Click the title at the top of the sheet, or any column heading, to rename it: turn "Tasks &amp; Notes" into "Calls", or a weekday column into an actual date. Use the controls above the sheet to set the number of rows, pick the start and end hours and 30- or 60-minute slots on the time-based planners, switch the week to start on Sunday or Monday, and flip between portrait and landscape. You can also hide the date line if you don't need it. When it looks right, press Print, and the print stylesheet removes the menus, ads, and controls automatically so only the planner lands on the paper.</p>
+    <h2>Common questions</h2>
+    <p><b>Can I set the hours on the hourly planner?</b> Yes. Choose any start and end hour and either 30- or 60-minute intervals, so the grid matches your real day instead of a generic 9-to-5. The weekly schedule and class schedules share the same time controls.</p>
+    <p><b>How do I save it as a PDF?</b> Press Print, then choose "Save as PDF" as the destination (or printer) in your browser's print dialog. It produces the same result as printing, with no extra software.</p>
+    <p><b>Is it really free, with no signup?</b> Yes. Every planner is free to use and print, with no account, email, or download required.</p>
+    <p><b>Can I change the column and day headings?</b> Any heading is click-to-edit, including the day names and the sheet title. Rename them to fit what you're planning, then print your version.</p>
+    <p><b>Which planners work best in landscape?</b> The wide grids: the weekly planner, weekly schedule, meal planner, chore chart, and class schedules default to landscape, while the daily planner, to-do list, and workout log default to portrait. You can switch either way before printing.</p>
+  </div>`;
   writePage(`/`, layout({ title, desc, urlPath: `/`, h1: `Printable Planners &amp; Schedules`, body }));
 }
 
